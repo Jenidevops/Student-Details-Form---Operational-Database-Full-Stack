@@ -32,13 +32,18 @@ config/database.js
 *.md
 !README.md
 
-# Internal guides and documentation
+# Specific internal guides and documentation (extra protection)
 INTEGRATION_GUIDE.md
 MONGODB_CHECK_GUIDE.md
 QUICK_START.md
 SEARCH_UPDATE_GUIDE.md
 SUCCESS.md
 VERCEL_DEPLOYMENT.md
+
+# All README files in subdirectories (keep only root README.md)
+*/README.md
+**/README.md
+!README.md
 
 # ========================
 # NODE.JS
