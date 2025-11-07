@@ -188,8 +188,9 @@ npm start
 ```
 
 ### Environment Variables
+Create a `.env` file in the `mongodbtask` folder:
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/studentDB
+MONGODB_URI=your_mongodb_atlas_connection_string_here
 PORT=3000
 NODE_ENV=development
 ```

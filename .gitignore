@@ -1,0 +1,243 @@
+# ========================
+# SECURITY & SENSITIVE FILES
+# ========================
+
+# Environment variables (contains passwords, API keys, connection strings)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+
+# Database connection files
+db_config.js
+database.js
+config/database.js
+
+# Any file containing passwords or secrets
+*password*
+*secret*
+*key*
+*credential*
+*.pem
+*.key
+*.cert
+
+# ========================
+# DOCUMENTATION & GUIDES (INTERNAL USE ONLY)
+# ========================
+
+# All markdown files except README.md (keep documentation private)
+*.md
+!README.md
+
+# Internal guides and documentation
+INTEGRATION_GUIDE.md
+MONGODB_CHECK_GUIDE.md
+QUICK_START.md
+SEARCH_UPDATE_GUIDE.md
+SUCCESS.md
+VERCEL_DEPLOYMENT.md
+
+# ========================
+# NODE.JS
+# ========================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# ========================
+# LOGS & DEBUGGING
+# ========================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Debugging
+.vscode/launch.json
+.vscode/settings.json
+
+# ========================
+# OPERATING SYSTEM
+# ========================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================
+# EDITORS & IDEs
+# ========================
+
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# TEMPORARY & CACHE FILES
+# ========================
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files (if any)
+*.zip
+*.tar.gz
+*.rar
+
+# ========================
+# DEPLOYMENT & BUILD
+# ========================
+
+# Build outputs
+build/
+dist/
+out/
+
+# Vercel deployment files
+.vercel
+
+# Netlify
+.netlify
+
+# ========================
+# TESTING
+# ========================
+
+# Test results
+test-results/
+coverage/
+.nyc_output/
+
+# ========================
+# MONGODB & DATABASE
+# ========================
+
+# Local MongoDB data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Database dumps
+*.sql
+dump.rdb
+
+# ========================
+# CUSTOM PROJECT FILES
+# ========================
+
+# Any local configuration
+local.json
+config.local.json
+
+# Personal notes (keep private)
+notes.txt
+todo.txt
+personal/
+
+# Screenshots or images with sensitive info
+screenshots/
+sensitive_images/
+
+# ========================
+# ALLOW SPECIFIC FILES
+# ========================
+
+# Keep these files in the repository
+!.gitkeep
+!.env.example
+!README.md
