@@ -43,6 +43,7 @@ VERCEL_DEPLOYMENT.md
 # All README files in subdirectories (keep only root README.md)
 */README.md
 **/README.md
+student\ details\ task/README.md
 !README.md
 
 # ========================
